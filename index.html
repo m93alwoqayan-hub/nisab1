@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="النصاب">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#15233B">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAJkklEQVR4nO3dPW5UVwCG4evIW7CQKJlFpHAH24jEKpwmokJpYBWR2AZpIxZBykhJNpFiomRkxj/gmXPuzPs8HWgEp/ree3yxubjaXC8A9Hw3+wAAzCEAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABB1OfsAcFwf328e/+FXN5+PdxJYGzcAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAqMvZBzglV8+ezz5Cwot3Lw/5x/312+M/+/0vPxzyr2aST68/zD7CaRCABxj9MQ48+rTthlwM7iEAdzL9Y5h+jmobAxnYSwD2MP1jmH6GkYG9vAS+zfqPYf0ZzzueW9wA/mf6xzD9TOQqsMsN4F/Wfwzrzxq4CmwJwLJY/1GsP+uhAYsALNZ/FOvP2mhAPQDWfwzrzzrFG1APAEBWOgAe/8fw+M+alS8B3QBY/zGsP+uXbUA3AABx0QB4/B/D4z+nonkJiAYAgGIAPP6P4fGf0xK8BBQDAMAiAABZAgAQlQuAFwBjeAHAKaq9BsgFAIAtAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiMoF4O8//5h9hITff/x19hHgq316/WH2EYbKBQCALQEAiBIAgKhiALwGGMNrAE5L7QXA0gwAAEs2AC4BY7gEcCqCj/9LNgAAdAPgEjCGSwDr13z8X8oBWDRgFA1gzbLrv8QDAFBWD4BLwBguAaxT+fF/EYBFA0bRANYmvv6LAGxpwBgawHpY/0UA/qMBY2gAa2D9ty5nH2BFtg24evZ89kHO3LYBL969nH0Qikz/LjeA21wFxnAVYDzrf4sbwB6uAmO4CjCM6d9LAO4kA2PIAEdl+u8hAA/Y/YqQGBzP7leExIAnMvqPdHG1uZ59Bjiij+83j//wq5vPxzsJrI2XwABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFEXV5vr2WcAYAI3AIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIupx9AOAoPr7ffPmbr24+jz8Jq3VxtbmefQbgkPZO/y4ZYEsA4Hw8OP27ZADvAOBMfNX6f8PnOT8CAOfg29ZcA+IEAE7eU3ZcA8r8K6DJfn77ZveXP715O+sku9Z5KuCw3ABmurWze39nvHWeirs8/RHeJSBLAKa5a1Xnru06TwUcgwDMcf+ezlrbdZ6Kexzq4d0loEkAJnjMko5f23WeCjgeAQCIEgCAKAEAiBIAgCgBmOAx31c1/nuv1nkq4HgEYI77l3TWzq7zVNzjUD/R008GbRKAae7a07k7u85TAccgADN9uapr2Nl1noq7PP3h3eN/lv8QBk7eE7+PVwCy3ADg5D1lwa1/mQDAOfi2Hbf+cQIAZ+Jr19z64x0AnJsHXwmYfrYEAM7T3gyYfnYJAECUdwAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAEPUPIqAED0EeYWwAAAAASUVORK5CYII=">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAJkklEQVR4nO3dPW5UVwCG4evIW7CQKJlFpHAH24jEKpwmokJpYBWR2AZpIxZBykhJNpFiomRkxj/gmXPuzPs8HWgEp/ree3yxubjaXC8A9Hw3+wAAzCEAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABB1OfsAcFwf328e/+FXN5+PdxJYGzcAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAqMvZBzglV8+ezz5Cwot3Lw/5x/312+M/+/0vPxzyr2aST68/zD7CaRCABxj9MQ48+rTthlwM7iEAdzL9Y5h+jmobAxnYSwD2MP1jmH6GkYG9vAS+zfqPYf0ZzzueW9wA/mf6xzD9TOQqsMsN4F/Wfwzrzxq4CmwJwLJY/1GsP+uhAYsALNZ/FOvP2mhAPQDWfwzrzzrFG1APAEBWOgAe/8fw+M+alS8B3QBY/zGsP+uXbUA3AABx0QB4/B/D4z+nonkJiAYAgGIAPP6P4fGf0xK8BBQDAMAiAABZAgAQlQuAFwBjeAHAKaq9BsgFAIAtAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiMoF4O8//5h9hITff/x19hHgq316/WH2EYbKBQCALQEAiBIAgKhiALwGGMNrAE5L7QXA0gwAAEs2AC4BY7gEcCqCj/9LNgAAdAPgEjCGSwDr13z8X8oBWDRgFA1gzbLrv8QDAFBWD4BLwBguAaxT+fF/EYBFA0bRANYmvv6LAGxpwBgawHpY/0UA/qMBY2gAa2D9ty5nH2BFtg24evZ89kHO3LYBL969nH0Qikz/LjeA21wFxnAVYDzrf4sbwB6uAmO4CjCM6d9LAO4kA2PIAEdl+u8hAA/Y/YqQGBzP7leExIAnMvqPdHG1uZ59Bjiij+83j//wq5vPxzsJrI2XwABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFEXV5vr2WcAYAI3AIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIupx9AOAoPr7ffPmbr24+jz8Jq3VxtbmefQbgkPZO/y4ZYEsA4Hw8OP27ZADvAOBMfNX6f8PnOT8CAOfg29ZcA+IEAE7eU3ZcA8r8K6DJfn77ZveXP715O+sku9Z5KuCw3ABmurWze39nvHWeirs8/RHeJSBLAKa5a1Xnru06TwUcgwDMcf+ezlrbdZ6Kexzq4d0loEkAJnjMko5f23WeCjgeAQCIEgCAKAEAiBIAgCgBmOAx31c1/nuv1nkq4HgEYI77l3TWzq7zVNzjUD/R008GbRKAae7a07k7u85TAccgADN9uapr2Nl1noq7PP3h3eN/lv8QBk7eE7+PVwCy3ADg5D1lwa1/mQDAOfi2Hbf+cQIAZ+Jr19z64x0AnJsHXwmYfrYEAM7T3gyYfnYJAECUdwAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAEPUPIqAED0EeYWwAAAAASUVORK5CYII=">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%20%22%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9%20%D8%A7%D9%84%D9%86%D8%B5%D8%A7%D8%A8%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%22%2C%20%22short_name%22%3A%20%22%D8%A7%D9%84%D9%86%D8%B5%D8%A7%D8%A8%22%2C%20%22display%22%3A%20%22standalone%22%2C%20%22dir%22%3A%20%22rtl%22%2C%20%22lang%22%3A%20%22ar%22%2C%20%22background_color%22%3A%20%22%2315233B%22%2C%20%22theme_color%22%3A%20%22%2315233B%22%2C%20%22start_url%22%3A%20%22.%22%2C%20%22icons%22%3A%20%5B%7B%22src%22%3A%20%22data%3Aimage/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAJkklEQVR4nO3dPW5UVwCG4evIW7CQKJlFpHAH24jEKpwmokJpYBWR2AZpIxZBykhJNpFiomRkxj/gmXPuzPs8HWgEp/ree3yxubjaXC8A9Hw3%2BwAAzCEAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABB1OfsAcFwf328e/%2BFXN5%2BPdxJYGzcAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAqMvZBzglV8%2Bezz5Cwot3Lw/5x/312%2BM/%2B/0vPxzyr2aST68/zD7CaRCABxj9MQ48%2BrTthlwM7iEAdzL9Y5h%2BjmobAxnYSwD2MP1jmH6GkYG9vAS%2BzfqPYf0ZzzueW9wA/mf6xzD9TOQqsMsN4F/Wfwzrzxq4CmwJwLJY/1GsP%2BuhAYsALNZ/FOvP2mhAPQDWfwzrzzrFG1APAEBWOgAe/8fw%2BM%2BalS8B3QBY/zGsP%2BuXbUA3AABx0QB4/B/D4z%2BnonkJiAYAgGIAPP6P4fGf0xK8BBQDAMAiAABZAgAQlQuAFwBjeAHAKaq9BsgFAIAtAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiMoF4O8//5h9hITff/x19hHgq316/WH2EYbKBQCALQEAiBIAgKhiALwGGMNrAE5L7QXA0gwAAEs2AC4BY7gEcCqCj/9LNgAAdAPgEjCGSwDr13z8X8oBWDRgFA1gzbLrv8QDAFBWD4BLwBguAaxT%2BfF/EYBFA0bRANYmvv6LAGxpwBgawHpY/0UA/qMBY2gAa2D9ty5nH2BFtg24evZ89kHO3LYBL969nH0Qikz/LjeA21wFxnAVYDzrf4sbwB6uAmO4CjCM6d9LAO4kA2PIAEdl%2Bu8hAA/Y/YqQGBzP7leExIAnMvqPdHG1uZ59Bjiij%2B83j//wq5vPxzsJrI2XwABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFEXV5vr2WcAYAI3AIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIupx9AOAoPr7ffPmbr24%2Bjz8Jq3VxtbmefQbgkPZO/y4ZYEsA4Hw8OP27ZADvAOBMfNX6f8PnOT8CAOfg29ZcA%2BIEAE7eU3ZcA8r8K6DJfn77ZveXP715O%2Bsku9Z5KuCw3ABmurWze39nvHWeirs8/RHeJSBLAKa5a1Xnru06TwUcgwDMcf%2BezlrbdZ6Kexzq4d0loEkAJnjMko5f23WeCjgeAQCIEgCAKAEAiBIAgCgBmOAx31c1/nuv1nkq4HgEYI77l3TWzq7zVNzjUD/R008GbRKAae7a07k7u85TAccgADN9uapr2Nl1noq7PP3h3eN/lv8QBk7eE7%2BPVwCy3ADg5D1lwa1/mQDAOfi2Hbf%2BcQIAZ%2BJr19z64x0AnJsHXwmYfrYEAM7T3gyYfnYJAECUdwAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAEPUPIqAED0EeYWwAAAAASUVORK5CYII%3D%22%2C%20%22sizes%22%3A%20%22512x512%22%2C%20%22type%22%3A%20%22image/png%22%7D%5D%7D">
+<title>حاسبة النصاب القانوني</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F6; --surface:#FFFFFF; --ink:#15233B; --muted:#5B6678; --line:#D6DDE6;
+  --brass:#A9822F; --brass-soft:#F4ECDA; --ok:#1E7F5C; --ok-soft:#DDF1E8; --bad:#B3261E; --bad-soft:#F9E1DF;
+  --field:#F6F8FB; --track:#DCE3EC;
+  color-scheme: light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1726; --surface:#16233A; --ink:#E8EDF5; --muted:#9AA6B8; --line:#2A3A55;
+    --brass:#D2AE5E; --brass-soft:#2E2A1F; --ok:#4CC497; --ok-soft:#173A2F; --bad:#F2877F; --bad-soft:#3F1F1D;
+    --field:#1B2A44; --track:#2A3A55; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1726; --surface:#16233A; --ink:#E8EDF5; --muted:#9AA6B8; --line:#2A3A55;
+  --brass:#D2AE5E; --brass-soft:#2E2A1F; --ok:#4CC497; --ok-soft:#173A2F; --bad:#F2877F; --bad-soft:#3F1F1D;
+  --field:#1B2A44; --track:#2A3A55; color-scheme: dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",Tahoma,"Segoe UI",Arial,sans-serif;font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:16px 14px 120px}
+h1{font-size:1.35rem;margin:6px 0 2px;font-weight:700}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+h2{font-size:1rem;margin:0 0 10px;font-weight:600}
+label.lbl{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 6px}
+.seg{display:flex;background:var(--field);border:1px solid var(--line);border-radius:10px;padding:3px;gap:3px}
+.seg button{flex:1;border:0;background:transparent;color:var(--ink);font:inherit;font-size:.9rem;padding:9px 4px;border-radius:8px;cursor:pointer;min-height:42px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface);font-weight:600}
+input[type=text],input[type=number],input[inputmode]{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px}
+input:focus-visible,button:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.warn{background:var(--brass-soft);color:var(--ink);border-radius:10px;padding:8px 10px;font-size:.85rem;margin-top:10px}
+
+/* gauge — the one bold element */
+.gauge{position:relative;height:46px;background:var(--track);border-radius:10px;overflow:hidden;margin:6px 0 4px}
+.fill{position:absolute;inset-block:0;right:0;width:0;background:var(--bad);transition:width .35s ease, background .35s}
+.fill.ok{background:var(--ok)}
+.mark{position:absolute;top:-2px;bottom:-2px;width:3px;background:var(--brass);transform:translateX(50%);transition:right .35s}
+.gauge-val{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.scale{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted)}
+.verdicts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.verdict{border-radius:12px;padding:10px;text-align:center}
+.verdict b{display:block;font-size:1.05rem}
+.verdict small{color:var(--muted);font-size:.78rem}
+.v-ok{background:var(--ok-soft)} .v-ok b{color:var(--ok)}
+.v-bad{background:var(--bad-soft)} .v-bad b{color:var(--bad)}
+.v-na{background:var(--field)} .v-na b{color:var(--muted)}
+dl{display:grid;grid-template-columns:1fr auto;gap:6px 10px;margin:12px 0 0;font-size:.9rem}
+dt{color:var(--muted)} dd{margin:0;font-weight:600;text-align:left;direction:ltr;unicode-bidi:plaintext}
+
+/* holders */
+.holder{border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px;background:var(--surface)}
+.holder.present{border-color:var(--ok);box-shadow:inset 3px 0 0 var(--ok)}
+.h-top{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;align-items:center}
+.h-top input{min-height:42px;padding:8px 10px}
+.del{border:0;background:transparent;color:var(--muted);font-size:1.3rem;width:40px;height:42px;cursor:pointer;border-radius:8px}
+.h-bot{display:grid;grid-template-columns:auto 1fr;gap:8px;margin-top:8px;align-items:center}
+.pres{border:1px solid var(--line);background:var(--field);color:var(--ink);font:inherit;font-size:.88rem;border-radius:10px;padding:0 12px;min-height:42px;cursor:pointer;white-space:nowrap}
+.pres[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff;font-weight:600}
+.vote .seg button{font-size:.82rem;padding:8px 2px}
+.vote.off{opacity:.35;pointer-events:none}
+.pct{font-size:.75rem;color:var(--muted);margin-top:4px}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.btn{flex:1;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--field);color:var(--ink);font:inherit;font-size:.9rem;cursor:pointer;padding:0 10px}
+.btn.primary{background:var(--ink);color:var(--surface);border-color:var(--ink);font-weight:600}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--muted);font-size:.88rem;min-height:36px;display:flex;align-items:center}
+.quick{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+.rules{font-size:.85rem;color:var(--muted);margin:0;padding-inline-start:18px}
+.rules li{margin-bottom:4px}
+.rule-card{border:1px solid var(--line);border-radius:12px;padding:10px;margin-top:10px}
+.rule-card b{font-size:.92rem}
+.tag{display:inline-block;background:var(--brass-soft);color:var(--ink);border-radius:8px;padding:2px 8px;font-size:.78rem;margin-inline-start:6px}
+
+/* bottom bar */
+.bar{position:fixed;bottom:0;left:0;right:0;background:var(--ink);color:var(--surface);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;align-items:center;gap:10px;z-index:5;font-size:.9rem}
+.bar strong{font-size:1.15rem}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-inline-end:6px;background:var(--bad)}
+.dot.ok{background:#4CC497}
+@media (prefers-reduced-motion: reduce){.fill,.mark{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>حاسبة النصاب القانوني</h1>
+  <p class="sub">للجمعية العمومية حسب قانون الشركات الكويتي</p>
+
+  <section aria-labelledby="s1">
+    <h2 id="s1">الاجتماع</h2>
+    <label class="lbl">نوع الكيان</label>
+    <div class="seg" data-key="entity">
+      <button data-v="jsc">شركة مساهمة</button><button data-v="llc">ذ.م.م</button><button data-v="fund">صندوق</button>
+    </div>
+    <label class="lbl">نوع الجمعية</label>
+    <div class="seg" data-key="assembly">
+      <button data-v="ord">عادية</button><button data-v="ext">غير عادية</button>
+    </div>
+    <label class="lbl">الاجتماع</label>
+    <div class="seg" data-key="round">
+      <button data-v="1">الأول</button><button data-v="2">الثاني</button>
+    </div>
+    <div class="row2">
+      <div><label class="lbl" for="issued">إجمالي الأسهم المصدرة</label><input id="issued" inputmode="numeric" autocomplete="off"></div>
+      <div><label class="lbl" for="treasury">أسهم خزينة (لا تصوّت)</label><input id="treasury" inputmode="numeric" autocomplete="off"></div>
+    </div>
+    <div id="fundWarn" class="warn" hidden>نسب الصندوق هنا مفترضة مثل الشركة المساهمة. تأكد منها من النظام الأساسي للصندوق.</div>
+  </section>
+
+  <section aria-labelledby="s2">
+    <h2 id="s2">النتيجة</h2>
+    <div class="gauge" role="img" id="gaugeBox">
+      <div class="fill" id="fill"></div>
+      <div class="mark" id="mark"></div>
+      <div class="gauge-val" id="gval">0%</div>
+    </div>
+    <div class="scale"><span>0%</span><span id="needTxt"></span><span>100%</span></div>
+    <div class="verdicts">
+      <div class="verdict" id="vMeet"><b></b><small>صحة الاجتماع</small></div>
+      <div class="verdict" id="vDec"><b></b><small>القرار</small></div>
+    </div>
+    <dl>
+      <dt>الأسهم الحاضرة</dt><dd id="dPresent"></dd>
+      <dt>النصاب المطلوب</dt><dd id="dNeed"></dd>
+      <dt>ناقص للنصاب</dt><dd id="dShort"></dd>
+      <dt>أسهم الموافقين</dt><dd id="dYes"></dd>
+      <dt id="dMajLbl">لازم يتجاوزون</dt><dd id="dMaj"></dd>
+    </dl>
+    <div id="sumWarn" class="warn" hidden></div>
+  </section>
+
+  <section aria-labelledby="s3">
+    <h2 id="s3">المساهمون</h2>
+    <div id="list"></div>
+    <div class="btns">
+      <button class="btn primary" id="add">إضافة مساهم</button>
+      <button class="btn" id="allIn">الكل حاضر</button>
+      <button class="btn" id="allOut">الكل غائب</button>
+    </div>
+    <details>
+      <summary>تعبئة سريعة (حصص متساوية)</summary>
+      <div class="quick">
+        <div><label class="lbl" for="qN">عدد المساهمين</label><input id="qN" inputmode="numeric" value="10"></div>
+        <div><label class="lbl" for="qS">أسهم كل واحد</label><input id="qS" inputmode="numeric" value="100,000"></div>
+      </div>
+      <div class="btns"><button class="btn" id="qGo">استبدال القائمة</button></div>
+    </details>
+    <div class="btns"><button class="btn" id="reset">رجّع المثال</button></div>
+  </section>
+
+  <section aria-labelledby="s4">
+    <h2 id="s4">القواعد المطبّقة <span class="tag" id="modTag" hidden>معدّلة</span></h2>
+    <ul class="rules" id="rules"></ul>
+    <details id="editBox">
+      <summary id="editSum">تعديل النسب</summary>
+      <div id="ruleEdit"></div>
+      <div class="btns"><button class="btn" id="ruleReset">رجّع النسب الافتراضية</button></div>
+    </details>
+    <p class="sub" style="margin:8px 0 0">إذا النظام الأساسي أو عقد الشركة ينص على نسب أعلى، هو اللي يغلب. الوكالات تنحسب حضور.</p>
+  </section>
+</div>
+
+<div class="bar" aria-live="polite">
+  <span>الحضور <strong id="bPct">0%</strong></span>
+  <span id="bTxt"><span class="dot"></span></span>
+</div>
+
+<script>
+(function(){
+  // q = quorum fraction, strict = '>' vs '>=', base = majority base ('present' | 'capital')
+  const RULES = {
+    ord:{1:{q:.5,strict:true,base:'present',maj:.5}, 2:{q:0,strict:true,base:'present',maj:.5}},
+    ext:{1:{q:.75,strict:false,base:'capital',maj:.5}, 2:{q:.5,strict:true,base:'capital',maj:.5}}
+  };
+  const NAMES={ord:'عادية',ext:'غير عادية'}, RN={1:'اجتماع أول',2:'اجتماع ثاني'}, ENT={jsc:'الشركة المساهمة',llc:'ذ.م.م',fund:'الصندوق'};
+  const clone=o=>JSON.parse(JSON.stringify(o));
+  const KEY='quorum-calc-v1';
+  const fmt = n => Math.round(n).toLocaleString('en-US');
+  const pct = x => (Math.round(x*100000)/1000).toLocaleString('en-US',{maximumFractionDigits:3}) + '%';
+  const num = s => { const v = parseFloat(String(s||'').replace(/[^\d.]/g,'')); return isNaN(v)?0:v; };
+
+  function example(){
+    return {entity:'jsc',assembly:'ord',round:'2',issued:1000000,treasury:0,
+      holders:Array.from({length:10},(_,i)=>({name:'مساهم '+(i+1),shares:100000,present:i<3,vote:i<2?'yes':(i===2?'no':'abs')}))};
+  }
+  let S;
+  try{ S = JSON.parse(localStorage.getItem(KEY)) || example(); }catch(e){ S = example(); }
+  const save = () => { try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} };
+  function ensureRules(){ if(!S.rules) S.rules={}; ['jsc','llc','fund'].forEach(k=>{ if(!S.rules[k]) S.rules[k]=clone(RULES); ['ord','ext'].forEach(a=>[1,2].forEach(n=>{ if(S.rules[k][a][n].maj==null) S.rules[k][a][n].maj=.5; })); }); }
+  ensureRules();
+
+  const $ = id => document.getElementById(id);
+  const issued=$('issued'), treasury=$('treasury');
+
+  // segmented controls
+  document.querySelectorAll('.seg[data-key]').forEach(seg=>{
+    seg.addEventListener('click',e=>{
+      const b=e.target.closest('button'); if(!b) return;
+      S[seg.dataset.key]=b.dataset.v; save(); paintSeg(); renderEdit(); calc();
+    });
+  });
+  function paintSeg(){
+    document.querySelectorAll('.seg[data-key]').forEach(seg=>{
+      seg.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.v===String(S[seg.dataset.key]))));
+    });
+    $('fundWarn').hidden = S.entity!=='fund';
+  }
+
+  function bindNum(el,key){
+    el.value = fmt(S[key]);
+    el.addEventListener('input',()=>{ S[key]=num(el.value); save(); calc(); });
+    el.addEventListener('blur',()=>{ el.value = fmt(S[key]); });
+  }
+  bindNum(issued,'issued'); bindNum(treasury,'treasury');
+
+  function renderList(){
+    const list=$('list'); list.innerHTML='';
+    S.holders.forEach((h,i)=>{
+      const d=document.createElement('div'); d.className='holder'+(h.present?' present':'');
+      d.innerHTML=`
+        <div class="h-top">
+          <input type="text" aria-label="الاسم" value="${h.name.replace(/"/g,'&quot;')}" data-f="name">
+          <input inputmode="numeric" aria-label="عدد الأسهم" value="${fmt(h.shares)}" data-f="shares">
+          <button class="del" aria-label="حذف">×</button>
+        </div>
+        <div class="h-bot">
+          <button class="pres" aria-pressed="${h.present}">${h.present?'حاضر':'غائب'}</button>
+          <div class="vote ${h.present?'':'off'}"><div class="seg">
+            <button data-v="yes" aria-pressed="${h.vote==='yes'}">موافق</button>
+            <button data-v="no" aria-pressed="${h.vote==='no'}">رافض</button>
+            <button data-v="abs" aria-pressed="${h.vote==='abs'}">ممتنع</button>
+          </div></div>
+        </div>
+        <div class="pct" data-pct></div>`;
+      const [nameEl,shEl]=d.querySelectorAll('input');
+      nameEl.addEventListener('input',()=>{h.name=nameEl.value;save();});
+      shEl.addEventListener('input',()=>{h.shares=num(shEl.value);save();calc();});
+      shEl.addEventListener('blur',()=>{shEl.value=fmt(h.shares);});
+      d.querySelector('.del').addEventListener('click',()=>{S.holders.splice(i,1);save();renderList();calc();});
+      d.querySelector('.pres').addEventListener('click',()=>{h.present=!h.present;save();renderList();calc();});
+      d.querySelector('.vote .seg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;h.vote=b.dataset.v;save();renderList();calc();});
+      list.appendChild(d);
+    });
+  }
+
+  $('add').onclick=()=>{S.holders.push({name:'مساهم '+(S.holders.length+1),shares:0,present:false,vote:'abs'});save();renderList();calc();
+    const ins=$('list').querySelectorAll('.holder'); const last=ins[ins.length-1]; last&&last.querySelector('[data-f="shares"]').focus();};
+  $('allIn').onclick=()=>{S.holders.forEach(h=>h.present=true);save();renderList();calc();};
+  $('allOut').onclick=()=>{S.holders.forEach(h=>h.present=false);save();renderList();calc();};
+  $('qGo').onclick=()=>{const n=Math.min(200,Math.max(1,Math.round(num($('qN').value)))), s=num($('qS').value);
+    S.holders=Array.from({length:n},(_,i)=>({name:'مساهم '+(i+1),shares:s,present:false,vote:'abs'}));
+    S.issued=n*s; issued.value=fmt(S.issued); save(); renderList(); calc();};
+  $('reset').onclick=()=>{S=example();ensureRules();renderEdit();save();issued.value=fmt(S.issued);treasury.value=fmt(S.treasury);paintSeg();renderList();calc();};
+
+  function renderEdit(){
+    $('editSum').textContent='تعديل النسب لـ'+ENT[S.entity];
+    const box=$('ruleEdit'); box.innerHTML='';
+    const R=S.rules[S.entity];
+    ['ord','ext'].forEach(a=>[1,2].forEach(n=>{
+      const r=R[a][n]; const d=document.createElement('div'); d.className='rule-card';
+      d.innerHTML=`<b>${NAMES[a]}، ${RN[n]}</b>
+        <div class="row2">
+          <div><label class="lbl">النصاب %</label><input inputmode="decimal" data-k="q" value="${+(r.q*100).toFixed(3)}"></div>
+          <div><label class="lbl">أغلبية القرار % (أكثر من)</label><input inputmode="decimal" data-k="maj" value="${+(r.maj*100).toFixed(3)}"></div>
+        </div>
+        <label class="lbl">شرط النصاب</label>
+        <div class="seg" data-k="strict"><button data-v="1" aria-pressed="${r.strict}">أكثر من</button><button data-v="0" aria-pressed="${!r.strict}">لا يقل عن</button></div>
+        <label class="lbl">أغلبية القرار تنحسب من</label>
+        <div class="seg" data-k="base"><button data-v="present" aria-pressed="${r.base==='present'}">الحاضرين</button><button data-v="capital" aria-pressed="${r.base==='capital'}">رأس المال كله</button></div>`;
+      d.querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{ r[inp.dataset.k]=Math.min(100,num(inp.value))/100; save(); calc(); }));
+      d.querySelectorAll('.seg').forEach(sg=>sg.addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return;
+        if(sg.dataset.k==='strict') r.strict=b.dataset.v==='1'; else r.base=b.dataset.v;
+        sg.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); save(); calc(); }));
+      box.appendChild(d);
+    }));
+  }
+  $('ruleReset').onclick=()=>{ S.rules[S.entity]=clone(RULES); save(); renderEdit(); calc(); };
+
+  function setV(el,cls,txt){el.className='verdict '+cls;el.querySelector('b').textContent=txt;}
+
+  function calc(){
+    const r = S.rules[S.entity][S.assembly][S.round];
+    const cap = Math.max(0, S.issued - S.treasury);
+    const present = S.holders.filter(h=>h.present).reduce((a,h)=>a+h.shares,0);
+    const yes = S.holders.filter(h=>h.present&&h.vote==='yes').reduce((a,h)=>a+h.shares,0);
+    const p = cap>0 ? present/cap : 0;
+    const valid = cap>0 && present>0 && (r.strict ? p>r.q : p>=r.q);
+    const shortBy = valid ? 0 : Math.max(0, r.q*cap - present);
+    const base = r.base==='present' ? present : cap;
+    const majNeed = base*r.maj;
+    const passes = valid && yes>majNeed;
+
+    const pv=Math.min(1,p);
+    $('fill').style.width=(pv*100)+'%'; $('fill').classList.toggle('ok',valid);
+    $('mark').style.right=(r.q*100)+'%'; $('mark').hidden = r.q===0;
+    $('gval').textContent=pct(p);
+    $('gaugeBox').setAttribute('aria-label','نسبة الحضور '+pct(p)+'، والنصاب '+(r.q===0?'أي نسبة':pct(r.q)));
+    $('needTxt').textContent = r.q===0 ? 'بدون حد أدنى' : (r.strict?'أكثر من ':'لا يقل عن ')+pct(r.q);
+
+    setV($('vMeet'), valid?'v-ok':'v-bad', valid?'صحيح':'غير صحيح');
+    if(!valid) setV($('vDec'),'v-na','ما ينطرح');
+    else setV($('vDec'), passes?'v-ok':'v-bad', passes?'يمر':'ما يمر');
+
+    $('dPresent').textContent = fmt(present)+' سهم';
+    $('dNeed').textContent = r.q===0 ? 'أي حضور' : (r.strict?'> ':'≥ ')+fmt(r.q*cap);
+    $('dShort').textContent = valid ? '—' : (r.q===0 ? 'لازم يحضر واحد على الأقل' : fmt(shortBy)+(r.strict?' + سهم':''));
+    $('dYes').textContent = fmt(yes)+(base>0?' ('+pct(yes/base)+')':'');
+    $('dMajLbl').textContent = 'لازم يتجاوزون ('+pct(r.maj)+' من '+(r.base==='present'?'الحاضرين':'رأس المال كله')+')';
+    $('dMaj').textContent = fmt(majNeed);
+
+    const tot=S.holders.reduce((a,h)=>a+h.shares,0);
+    const sw=$('sumWarn');
+    if(Math.round(tot)!==Math.round(S.issued)){sw.hidden=false;sw.textContent='مجموع أسهم المساهمين '+fmt(tot)+' ما يطابق الأسهم المصدرة '+fmt(S.issued)+'.';}
+    else sw.hidden=true;
+
+    document.querySelectorAll('[data-pct]').forEach((el,i)=>{const h=S.holders[i]; el.textContent = h && S.issued>0 ? 'نسبة الملكية '+pct(h.shares/S.issued) : '';});
+
+    $('bPct').textContent=pct(p);
+    $('bTxt').innerHTML='<span class="dot'+(valid?' ok':'')+'"></span>'+(valid?(passes?'الاجتماع صحيح والقرار يمر':'الاجتماع صحيح والقرار ما يمر'):'الاجتماع غير صحيح');
+
+    const R=S.rules[S.entity], lines=[];
+    ['ord','ext'].forEach(a=>[1,2].forEach(n=>{ const x=R[a][n];
+      lines.push(NAMES[a]+'، '+RN[n]+': '+(x.q===0?'صحيح أياً كان الحضور':'حضور '+(x.strict?'أكثر من ':'لا يقل عن ')+pct(x.q))+'، والقرار بأكثر من '+pct(x.maj)+' من '+(x.base==='present'?'الحاضرين':'رأس المال كله')+'.'); }));
+    $('rules').innerHTML = lines.map(t=>'<li>'+t+'</li>').join('');
+    $('modTag').hidden = JSON.stringify(R)===JSON.stringify(RULES);
+  }
+
+  paintSeg(); renderList(); renderEdit(); calc();
+})();
+</script>
+</body>
+</html>
